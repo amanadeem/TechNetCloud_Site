@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="logo rounded-[50%] bg-white w-12 h-12 p-2">
               <img
                 className="w-full h-full cursor-pointer"
-                src="../assets/favicon.webp"
+                src="../src/assets/favicon.webp"
                 alt="logo"
               />
             </div>
