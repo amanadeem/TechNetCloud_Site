@@ -1,7 +1,7 @@
 const Section4 = () => {
   return (
     <>
-      <div className="max-w-full px-6 flex flex-col py-[100px] bg-[#172528] justify-center">
+      <div className="sec4 max-w-full px-6 flex flex-col py-[100px] justify-center">
         <div className="mx-auto text-center max-w-[810px]">
           <h2 className="text-5xl font-bold mb-5 leading-snug">Our Leads</h2>
           <p className="max-w-[620px] text-xl leading-normal text-[#95ADB1]">
@@ -12,7 +12,7 @@ const Section4 = () => {
         </div>
 
         <div className="cards w-full px-6 py-16 flex justify-center items-start gap-8 flex-wrap">
-          <div className="card bg-[#1D2B30] flex flex-col gap-8 w-[372px] py-10 px-8">
+          <div className="card infoCards flex flex-col gap-8 w-[372px] py-10 px-8 shadow-md">
             <div className="cardText">
               <p className="">
                 Python, AI, Data Science developer, MERN stack trainer
@@ -39,7 +39,7 @@ const Section4 = () => {
             </div>
           </div>
 
-          <div className="card bg-[#1D2B30] flex flex-col gap-8 w-[372px] py-10 px-8">
+          <div className="infoCards card flex flex-col gap-8 w-[372px] py-10 px-8 shadow-md">
             <div className="cardText">
               <p className="">
                 Marketing specialist, UI/UX designer & Frontend developer
@@ -64,7 +64,7 @@ const Section4 = () => {
             </div>
           </div>
 
-          <div className="card bg-[#1D2B30] flex flex-col gap-8 w-[372px] py-10 px-8">
+          <div className="infoCards card flex flex-col gap-8 w-[372px] py-10 px-8 shadow-md">
             <div className="cardText">
               <p className="">
                 Nextjs, Nodejs, Full stack developer, Lead @TechNetCloud

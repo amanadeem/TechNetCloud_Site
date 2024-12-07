@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <>
-      <div className="max-w-full flex flex-col py-[100px] bg-[#121B23] justify-center">
+      <div className="services max-w-full flex flex-col py-[100px] justify-center">
         <div className="mx-auto text-center max-w-[810px] mb-20">
           <h2 className="text-5xl font-bold mb-5 leading-snug">
             We are ready to help

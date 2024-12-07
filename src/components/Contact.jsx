@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
     <>
-      <div className="contact max-w-full px-6 py-[100px] bg-[#121B23] flex items-center justify-center">
-        <div className="bg-[#1E292E] px-8 py-10">
+      <div className="contact max-w-full px-6 py-[100px] flex items-center justify-center">
+        <div className="contactCard px-8 py-10 shadow-xl">
           <div className="text py-8">
             <h2 className="text-3xl font-bold">Need Help? Open a Ticket</h2>
             <p className="text-[#95ADB1]">
@@ -22,7 +22,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="bg-[#2C363B] px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
                   placeholder="Enter your name"
                   required
                 />
@@ -38,7 +38,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  className="bg-[#2C363B] px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
                   placeholder="Enter your email"
                   required
                 />
@@ -55,7 +55,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows="4"
-                className="bg-[#2C363B] px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2  resize-none"
+                className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2  resize-none"
                 placeholder="Enter your message"
               ></textarea>
             </div>

@@ -3,14 +3,127 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: "smooth";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Default - Dark Mode */
+body {
+  --background-color: #121b23;
+  --text-color1: #ffffff;
+  --text-color2: #95ADB1;
+  --text-color3: #ffffff;
+  --elem-color: #2b3945;
+  --link-hov-color: #fcfcfc;
+  --nav-footer-color: #1e292e;
+  --sec4-color: #172528;
+  --info-cards-color: #1d2b30;
+  --field-color: #2c363b;
+  --footlink-hov-color: #2c92c2;
+
+  background-color: var(--background-color);
+  color: var(--text-color1);
+  font-family: Inter, sans-serif;
+  cursor: default;
+}
+
+/* Light Mode */
+body.lightMode {
+  --background-color: #fcfcfc;
+  --text-color1: #121b23;
+  --text-color2: #95ADB1;
+  --text-color3: #788e93;
+  --elem-color: #2c92c2;
+  --link-hov-color: #2c92c2;
+  --nav-footer-color: #fcfcfc;
+  --sec4-color: #f0f2f9;
+  --info-cards-color: #ffffff;
+  --field-color: #f8f8f8;
+  --footlink-hov-color: #2c92c2;
 }
 
 body {
-    background-color: #121B23;
-    color: #fff;
-    font-family: Inter;
+  background-color: var(--background-color);
+  color: var(--text-color1);
+}
+
+h1,
+h2 {
+  color: var(--text-color1);
+}
+
+p,
+span,
+a,
+i {
+  color: var(--text-color2);
+}
+
+header,
+footer,
+.resNav {
+  background-color: var(--nav-footer-color);
+}
+
+.sec1,
+.contactCard {
+  background-color: var(--nav-footer-color);
+}
+
+.sec2,
+.services,
+.sec5 {
+  background-color: var(--background-color);
+}
+
+.sec4 {
+  background-color: var(--sec4-color);
+}
+
+.infoCards {
+  background-color: var(--info-cards-color);
+}
+
+.cardText p {
+  color: var(--text-color3);
+}
+
+.cText p {
+  color: var(--text-color2);
+}
+
+button {
+  background-color: var(--elem-color);
+  color: #fff;
+}
+
+a:hover {
+  color: var(--elem-color);
+}
+
+/* .link {
+  color: ;
+} */
+
+.link:hover {
+  color: var(--link-hov-color);
+}
+
+.foot-link:hover {
+  color: var(--footlink-hov-color);
+}
+
+
+.smcards {
+  background-color: #e6f1f6;
+}
+
+.field {
+  background-color: var(--field-color);
+}
+
+.field:focus {
+  border: 1px solid var(--elem-color);
 }

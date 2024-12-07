@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import { ThemeContext } from "../contexts/ThemeContext";
+
 const About = () => {
+  const [isLight] = useContext(ThemeContext);
   return (
     <>
-      <div className="max-w-full flex py-[100px] px-6 bg-[#121B23] items-center justify-center gap-2 flex-wrap">
+      <div className="about max-w-full flex py-[100px] px-6 items-center justify-center gap-6 flex-wrap">
         <div className="flex flex-col">
           <div>
             <h2 className="text-5xl font-bold mb-5 leading-snug">
@@ -67,23 +71,30 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mx-auto">
+        <div className="shadow-lg">
           <img
-            src="https://www.technetcloud.co/images/about/about-image-dark.svg"
+            src={
+              isLight
+                ? "https://www.technetcloud.co/images/about/about-image.svg"
+                : "https://www.technetcloud.co/images/about/about-image-dark.svg"
+            }
             alt="img"
           />
         </div>
       </div>
 
-      <div className="mx-auto w-[86%] bg-[#121B23]">
+      <div className="mx-auto w-[86%]">
         <div className="h-[1px] bg-slate-800"></div>
       </div>
 
-      <div className="max-w-screen flex py-[100px] px-6 bg-[#121B23] items-center justify-center gap-16 flex-wrap">
-        <div className="">
+      <div className="max-w-screen flex py-[100px] px-6 items-center justify-center gap-16 flex-wrap">
+        <div className="shadow-lg">
           <img
-            src="https://www.technetcloud.co/images/about/about-image-2-dark.svg"
-            alt="img"
+            src={
+              isLight
+                ? "https://www.technetcloud.co/images/about/about-image-2.svg"
+                : "https://www.technetcloud.co/images/about/about-image-2-dark.svg"
+            }
           />
         </div>
 
