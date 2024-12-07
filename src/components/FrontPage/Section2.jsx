@@ -17,7 +17,7 @@ const Section2 = () => {
         <div className="cards max-w-full px-6 py-16 flex justify-center items-start gap-x-4 gap-y-14 flex-wrap">
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-1 bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img1.png" alt="icon1" />
+              <img src="https://www.sketchengine.eu/wp-content/uploads/dashboard-24px.png" alt="icon1" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Crafted for Startups</h2>
@@ -31,7 +31,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-2 bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img2.png" alt="icon2" />
+              <img src="https://storage.googleapis.com/datanyze-data//technologies/102403f5093398806dd11d373b93971583e4a73a.png" alt="icon2" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">High-quality Design</h2>
@@ -45,7 +45,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img3.png" alt="icon3" />
+              <img src="https://cdn-icons-png.freepik.com/512/10233/10233686.png" alt="icon3" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Latest Technologies</h2>
@@ -59,7 +59,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img4.png" alt="icon4" />
+              <img src="https://sesamesoftware.com/wp-content/uploads/2021/10/data-replication-icon-blue.png" alt="icon4" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Reasonable Pricing</h2>
@@ -73,7 +73,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-1 bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img5.png" alt="icon5" />
+              <img src="https://cdn-icons-png.freepik.com/256/13343/13343903.png?semt=ais_hybrid" alt="icon5" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">SEO Friendly</h2>
@@ -87,7 +87,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="../../assets/icons/img6.png" alt="icon6" />
+              <img src="https://cdn-icons-png.freepik.com/512/11693/11693492.png" alt="icon6" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Fully Control</h2>

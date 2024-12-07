@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="logo rounded-[50%] bg-white w-12 h-12 p-2">
                 <img
                   className="w-full h-full  cursor-pointer"
-                  src="../assets/favicon.webp"
+                  src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ffavicon.png&w=256&q=75"
                   alt="logo"
                 />
               </div>
