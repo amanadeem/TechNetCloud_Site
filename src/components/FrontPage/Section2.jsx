@@ -17,7 +17,7 @@ const Section2 = () => {
         <div className="cards max-w-full px-6 py-16 flex justify-center items-start gap-x-4 gap-y-14 flex-wrap">
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-1 bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img1.png" alt="icon1" />
+              <img src="../../assets/icons/img1.png" alt="icon1" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Crafted for Startups</h2>
@@ -31,7 +31,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-2 bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img2.png" alt="icon2" />
+              <img src="../../assets/icons/img2.png" alt="icon2" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">High-quality Design</h2>
@@ -45,7 +45,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img3.png" alt="icon3" />
+              <img src="../../assets/icons/img3.png" alt="icon3" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Latest Technologies</h2>
@@ -59,7 +59,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img4.png" alt="icon4" />
+              <img src="../../assets/icons/img4.png" alt="icon4" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Reasonable Pricing</h2>
@@ -73,7 +73,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] h-[70px] p-1 bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img5.png" alt="icon5" />
+              <img src="../../assets/icons/img5.png" alt="icon5" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">SEO Friendly</h2>
@@ -87,7 +87,7 @@ const Section2 = () => {
 
           <div className="card shadow-sm flex flex-col gap-8 w-[372px] p-2">
             <div className="cardImg w-[70px] p-2 h-[70px] bg-[#142733] rounded-md">
-              <img src="src\assets\icons\img6.png" alt="icon6" />
+              <img src="../../assets/icons/img6.png" alt="icon6" />
             </div>
             <div className="cText flex flex-col gap-4">
               <h2 className="text-xl font-bold">Fully Control</h2>
