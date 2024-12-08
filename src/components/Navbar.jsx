@@ -1,4 +1,5 @@
-import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-regular-svg-icons";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, NavLink } from "react-router-dom";
@@ -32,7 +33,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className="nav md:max-w-full md:px-16 md:py-7 md:items-center md:shadow-sm md:transition-all transition-all max-w-full px-2 py-4 items-center shadow-sm sticky top-0 z-20
+        className="nav md:max-w-full md:px-16 md:py-7 md:items-center md:shadow-sm md:transition-all transition-all max-w-full px-4 pt-4 pb-2 items-center shadow-sm sticky top-0 z-20
       "
       >
         <div className="flex justify-between items-center">
@@ -82,17 +83,17 @@ const Navbar = () => {
           </div>
           <div className="theme cursor-pointer flex items-start justify-center gap-4">
             <div
-              className="text-2xl w-6 h-6"
+              className="md:text-2xl text-xl w-6 h-6"
               onClick={toggleTheme}
               style={{
                 color: isLight ? "black" : "white",
               }}
             >
-              <FontAwesomeIcon icon={isLight ? faMoon : faSun} />
+              <FontAwesomeIcon icon={isLight ? (faMoon) : faSun} />
             </div>
             <div
               onClick={toggleResNav}
-              className="menuBar flex text-3xl
+              className="menuBar flex md:text-3xl text-2xl
           md:hidden
           "
             >
@@ -110,11 +111,11 @@ const Navbar = () => {
       </header>
 
       <div
-        className={`resNav sticky top-16 ${
+        className={`fixed rounded-lg top-22 right-6 shadow-md ${
           isResNavVisible ? "flex" : "hidden"
-        } justify-end items-end px-10 py-2 gap-2 w-full`}
+        } justify-end items-end gap-2`}
       >
-        <ul className="resNav flex flex-col h-[200px] w-[200px] px-4 py-1 shadow-md justify-center gap-3 rounded-md text-lg">
+        <ul className="resNav flex flex-col h-[160px] w-[200px] px-4 shadow-md justify-center gap-2 rounded-lg text-lg">
           <NavLink
             to={"/"}
             className={({ isActive }) => (isActive ? "active" : "")}

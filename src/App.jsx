@@ -12,6 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import { ThemeContext } from "./contexts/ThemeContext";
 // import { useContext } from "react";
 import { useState } from "react";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   const [isLight, setIsLight] = useState(
@@ -33,6 +34,7 @@ function App() {
               <Route path="*" element={<PageNotFound />} />
             </Routes>
             <Footer />
+            <ScrollToTopButton />
           </Router>
         </div>
       </ThemeContext.Provider>

@@ -1,10 +1,12 @@
 const Contact = () => {
   return (
     <>
-      <div className="contact max-w-full px-6 py-[100px] flex items-center justify-center">
-        <div className="contactCard px-8 py-10 shadow-xl">
+      <div className="contact max-w-full md:px-6 px-4 md:py-[100px] py-[50px] flex items-center justify-center">
+        <div className="contactCard md:px-8 md:py-[20px] px-6 py-[14px] shadow-xl">
           <div className="text py-8">
-            <h2 className="text-3xl font-bold">Need Help? Open a Ticket</h2>
+            <h2 className="md:text-3xl text-2xl mb-4 font-bold">
+              Need Help? Open a Ticket
+            </h2>
             <p className="text-[#95ADB1]">
               Our support team will get back to you ASAP via email.
             </p>
@@ -22,7 +24,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2 shadow-md"
                   placeholder="Enter your name"
                   required
                 />
@@ -38,7 +40,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2 shadow-md"
                   placeholder="Enter your email"
                   required
                 />
@@ -55,7 +57,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows="4"
-                className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2  resize-none"
+                className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm block w-full p-2 shadow-md  resize-none"
                 placeholder="Enter your message"
               ></textarea>
             </div>

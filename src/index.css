@@ -13,7 +13,7 @@
 body {
   --background-color: #121b23;
   --text-color1: #ffffff;
-  --text-color2: #95ADB1;
+  --text-color2: #95adb1;
   --text-color3: #ffffff;
   --elem-color: #2b3945;
   --link-hov-color: #fcfcfc;
@@ -22,6 +22,7 @@ body {
   --info-cards-color: #1d2b30;
   --field-color: #2c363b;
   --footlink-hov-color: #2c92c2;
+  --sm-card-color: #142733;
 
   background-color: var(--background-color);
   color: var(--text-color1);
@@ -33,7 +34,7 @@ body {
 body.lightMode {
   --background-color: #fcfcfc;
   --text-color1: #121b23;
-  --text-color2: #95ADB1;
+  --text-color2: #95adb1;
   --text-color3: #788e93;
   --elem-color: #2c92c2;
   --link-hov-color: #2c92c2;
@@ -42,6 +43,7 @@ body.lightMode {
   --info-cards-color: #ffffff;
   --field-color: #f8f8f8;
   --footlink-hov-color: #2c92c2;
+  --sm-card-color: #e6f1f6;
 }
 
 body {
@@ -59,6 +61,10 @@ span,
 a,
 i {
   color: var(--text-color2);
+}
+
+.line {
+  background-color: var(--text-color2);
 }
 
 header,
@@ -103,10 +109,6 @@ a:hover {
   color: var(--elem-color);
 }
 
-/* .link {
-  color: ;
-} */
-
 .link:hover {
   color: var(--link-hov-color);
 }
@@ -114,7 +116,6 @@ a:hover {
 .foot-link:hover {
   color: var(--footlink-hov-color);
 }
-
 
 .smcards {
   background-color: #e6f1f6;
@@ -126,4 +127,16 @@ a:hover {
 
 .field:focus {
   border: 1px solid var(--elem-color);
+}
+
+.smCard {
+  background-color: var(--sm-card-color);
+}
+
+.foot-icon:hover {
+  color: var(--footlink-hov-color);
+}
+
+.createdBy {
+  background-color: var(--nav-footer-color);
 }
