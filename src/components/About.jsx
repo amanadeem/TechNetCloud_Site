@@ -5,82 +5,85 @@ const About = () => {
   const [isLight] = useContext(ThemeContext);
   return (
     <>
-      <div className="about max-w-full md:flex md:py-[100px] py-[50px] md:px-6 md:items-center md:justify-center md:gap-6 md:flex-wrap px-4">
-        <div className="flex flex-col">
-          <div>
-            <h2 className="max-w-[630px] md:text-5xl text-3xl font-bold mb-5 md:leading-snug">
-              We craft SaaS, Business Sites & more.
-            </h2>
-            <p className="max-w-[630px] md:text-xl text-md leading-normal text-[#95ADB1]">
-              We specialize in crafting SaaS platforms, business websites, and
-              more to fit your unique needs. Our solutions are designed to drive
-              growth, enhance functionality, and elevate your digital presence.
-            </p>
-          </div>
+      <div className="flex items-end justify-center">
+        <div className="about max-w-full md:flex md:py-[100px] py-[50px] md:px-6 md:items-center md:justify-center md:gap-6 md:flex-wrap px-4">
+          <div className="flex flex-col">
+            <div>
+              <h2 className="max-w-[630px] md:text-5xl text-3xl font-bold mb-5 md:leading-snug">
+                We craft SaaS, Business Sites & more.
+              </h2>
+              <p className="max-w-[630px] md:text-xl text-md leading-normal text-[#95ADB1]">
+                We specialize in crafting SaaS platforms, business websites, and
+                more to fit your unique needs. Our solutions are designed to
+                drive growth, enhance functionality, and elevate your digital
+                presence.
+              </p>
+            </div>
 
-          <div
-            className="
+            <div
+              className="
           md:py-8 md:flex md:justify-between md:items-center md:gap-4 md:flex-wrap
-          flex gap-4 flex-wrap py-12
+          flex gap-4 flex-wrap py-12 md:max-w-[560px]
           "
-          >
-            <div className="flex flex-col flex-wrap gap-5 md:flex md:flex-wrap md:gap-4">
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
+            >
+              <div className="flex flex-col flex-wrap gap-5 md:flex md:flex-wrap md:gap-4">
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">Premium quality</span>
                 </div>
-                <span className="text-lg">Premium quality</span>
+
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">Use for lifetime</span>
+                </div>
+
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">Full control</span>
+                </div>
               </div>
 
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">Rich documentation</span>
                 </div>
-                <span className="text-lg">Use for lifetime</span>
-              </div>
 
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">Developer friendly</span>
                 </div>
-                <span className="text-lg">Full control</span>
-              </div>
-            </div>
 
-            <div className="flex flex-col gap-5">
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
+                <div className="flex items-center flex-wrap gap-3 px-1">
+                  <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
+                    {"✔"}
+                  </div>
+                  <span className="text-lg">In your budget</span>
                 </div>
-                <span className="text-lg">Rich documentation</span>
-              </div>
-
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
-                </div>
-                <span className="text-lg">Developer friendly</span>
-              </div>
-
-              <div className="flex items-center flex-wrap gap-3 px-1">
-                <div className="smCard flex justify-center items-center text-center text-xl text-[#2C92C2] p-4 md:w-[28px] md:h-[28px] w-[24px] h-[24px] rounded-md">
-                  {"✔"}
-                </div>
-                <span className="text-lg">In your budget</span>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="mx-auto shadow-lg">
-          <img
-            src={
-              isLight
-                ? "https://www.technetcloud.co/images/about/about-image.svg"
-                : "https://www.technetcloud.co/images/about/about-image-dark.svg"
-            }
-            alt="img"
-          />
+          <div className="mx-auto shadow-lg">
+            <img
+              src={
+                isLight
+                  ? "https://www.technetcloud.co/images/about/about-image.svg"
+                  : "https://www.technetcloud.co/images/about/about-image-dark.svg"
+              }
+              alt="img"
+            />
+          </div>
         </div>
       </div>
 
