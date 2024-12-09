@@ -36,9 +36,9 @@ const Navbar = () => {
         className="nav md:max-w-full md:px-16 md:py-7 md:items-center md:shadow-sm md:transition-all transition-all max-w-full px-4 pt-4 pb-2 items-center shadow-sm sticky top-0 z-20
       "
       >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-center items-center">
           <Link to={"/"}>
-            <div className="logo rounded-[50%] bg-white w-12 h-12 p-2">
+            <div className="logo rounded-[50%] bg-white w-12 h-12 p-2 2xl:w-16 2xl:h-16">
               <img
                 className="w-full h-full cursor-pointer"
                 src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ffavicon.png&w=256&q=75"
@@ -51,7 +51,7 @@ const Navbar = () => {
           hidden
           "
           >
-            <ul className="flex justify-evenly items-center gap-16 text-lg">
+            <ul className="flex justify-evenly items-center gap-16 text-lg 2xl:text-2xl">
               <NavLink
                 to={"/"}
                 className={({ isActive }) => (isActive ? "active" : "")}
@@ -83,13 +83,13 @@ const Navbar = () => {
           </div>
           <div className="theme cursor-pointer flex items-start justify-center gap-4">
             <div
-              className="md:text-2xl text-xl w-6 h-6"
+              className="md:text-2xl 2xl:text-3xl text-xl w-6 h-6"
               onClick={toggleTheme}
               style={{
                 color: isLight ? "black" : "white",
               }}
             >
-              <FontAwesomeIcon icon={isLight ? (faMoon) : faSun} />
+              <FontAwesomeIcon icon={isLight ? faMoon : faSun} />
             </div>
             <div
               onClick={toggleResNav}
