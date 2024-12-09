@@ -36,7 +36,7 @@ const Navbar = () => {
         className="nav md:max-w-full md:px-16 md:py-7 md:items-center md:shadow-sm md:transition-all transition-all max-w-full px-4 pt-4 pb-2 items-center shadow-sm sticky top-0 z-20
       "
       >
-        <div className="flex justify-center items-center">
+        <div className="flex justify-between items-center 2xl:flex 2xl:justify-center 2xl:items-center">
           <Link to={"/"}>
             <div className="logo rounded-[50%] bg-white w-12 h-12 p-2 2xl:w-16 2xl:h-16">
               <img

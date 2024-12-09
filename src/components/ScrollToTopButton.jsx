@@ -28,11 +28,11 @@ const ScrollToTopButton = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-5 right-5">
+    <div className="fixed bottom-5 right-5 2xl:bottom-8 2xl:right-8">
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="scrollbtn bg-[#297DA4] text-white px-3 py-2 rounded-md shadow-md hover:bg-[#2f80a5]"
+          className="scrollbtn bg-[#297DA4] text-white px-3 py-2 rounded-md shadow-md hover:bg-[#2f80a5] 2xl:px-5 2xl:py-4 2xl:text-3xl"
         >
           <FontAwesomeIcon icon={faChevronUp} />
         </button>

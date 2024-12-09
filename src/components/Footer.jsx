@@ -17,26 +17,30 @@ const Footer = () => {
       px-2 pt-[40px] flex
       "
       >
-        <div className="container flex justify-center items-center flex-wrap gap-4">
-          <div className="one flex flex-col gap-8 max-w-[390px] min-h-[300px] p-2">
+        <div
+          className="container flex justify-center items-center flex-wrap gap-4
+        2xl:min-w-[1280px] 2xl:flex 2xl:justify-between 2xl:items-center 2xl:gap-4
+        "
+        >
+          <div className="one flex flex-col gap-8 max-w-[390px] min-h-[300px] p-2 2xl:max-w-[500px]">
             <Link to={"/"}>
-              <div className="logo rounded-[50%] bg-white w-12 h-12 p-2">
+              <div className="logo rounded-[50%] bg-white w-12 h-12 p-2 2xl:w-16 2xl:h-16">
                 <img
-                  className="w-full h-full  cursor-pointer"
+                  className="w-full h-full cursor-pointer"
                   src="https://www.technetcloud.co/_next/image?url=%2Fimages%2Ffavicon.png&w=256&q=75"
                   alt="logo"
                 />
               </div>
             </Link>
             <div className="text text-[#95ADB1]">
-              <p className="text-[16px] leading-normal">
+              <p className="text-[16px] leading-normal 2xl:text-[23px]">
                 Transforming industries with cutting-edge technology and
                 seamless integration. Driving digital transformation with
                 innovative solutions and unparalleled expertise.
               </p>
             </div>
             <div className="socials flex items-center gap-4">
-              <div className="fb text-xl cursor-pointer">
+              <div className="fb text-xl cursor-pointer 2xl:text-3xl">
                 <a
                   className="foot-icon hover:text-[#2c92c2]"
                   target="_blank"
@@ -45,7 +49,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
               </div>
-              <div className="wa text-xl cursor-pointer">
+              <div className="wa text-xl cursor-pointer 2xl:text-3xl">
                 <a
                   className="foot-icon hover:text-[#2c92c2]"
                   target="_blank"
@@ -54,7 +58,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </div>
-              <div className="yt text-xl cursor-pointer">
+              <div className="yt text-xl cursor-pointer 2xl:text-3xl">
                 <a
                   className="foot-icon hover:text-[#2c92c2]"
                   target="_blank"
@@ -63,7 +67,7 @@ const Footer = () => {
                   <FontAwesomeIcon icon={faYoutube} />
                 </a>
               </div>
-              <div className="li text-xl cursor-pointer">
+              <div className="li text-xl cursor-pointer 2xl:text-3xl">
                 <a
                   className="foot-icon hover:text-[#2c92c2]"
                   target="_blank"
@@ -77,57 +81,69 @@ const Footer = () => {
           <div
             className="
           two md:flex md:flex-col md:gap-8 md:w-[220px] md:min-h-[300px] md:p-2
-          flex flex-col gap-4 w-full px-2 py-2
+          flex flex-col gap-4 w-full px-2 py-2 2xl:w-[300px]
           "
           >
-            <h3 className="text-xl font-semibold">Useful Links</h3>
+            <h3 className="text-xl font-semibold 2xl:text-3xl">Useful Links</h3>
             <ul className="text-[#95ADB1] flex flex-col gap-4">
               <Link to={"/about"}>
-                <li className="foot-link cursor-pointer">About</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">About</li>
               </Link>
               <Link to={"/contact"}>
-                <li className="foot-link cursor-pointer">Contact</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">
+                  Contact
+                </li>
               </Link>
             </ul>
           </div>
           <div
             className="three md:flex md:flex-col md:gap-8 md:w-[220px] md:min-h-[300px] md:p-2
-          flex flex-col gap-4 w-full px-2 py-2"
+          flex flex-col gap-4 w-full px-2 py-2 2xl:w-[300px]"
           >
-            <h3 className="text-xl font-semibold">Services</h3>
+            <h3 className="text-xl font-semibold 2xl:text-3xl">Services</h3>
             <ul className="text-[#95ADB1] flex flex-col gap-4">
               <Link to={"/services"}>
-                <li className="foot-link cursor-pointer">Services</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">
+                  Services
+                </li>
               </Link>
               <Link>
-                <li className="foot-link cursor-pointer">Courses</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">
+                  Courses
+                </li>
               </Link>
               <Link>
-                <li className="foot-link cursor-pointer">Internships</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">
+                  Internships
+                </li>
               </Link>
             </ul>
           </div>
           <div
             className="four md:flex md:flex-col md:gap-8 md:w-[220px] md:min-h-[300px] md:p-2
-          flex flex-col gap-4 w-full px-2 py-2"
+          flex flex-col gap-4 w-full px-2 py-2 2xl:w-[300px]"
           >
-            <h3 className="text-xl font-semibold">Support & Help</h3>
+            <h3 className="text-xl font-semibold 2xl:text-3xl">
+              Support & Help
+            </h3>
             <ul className="text-[#95ADB1] flex flex-col gap-4">
               <Link to={"/contact"}>
-                <li className="foot-link cursor-pointer">Mail Us</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">
+                  Mail Us
+                </li>
               </Link>
               <Link>
-                <li className="foot-link cursor-pointer">FAQs</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">FAQs</li>
               </Link>
               <Link to={"/about"}>
-                <li className="foot-link cursor-pointer">About</li>
+                <li className="foot-link cursor-pointer 2xl:text-xl">About</li>
               </Link>
             </ul>
           </div>
         </div>
       </footer>
 
-      <div className="createdBy text-center py-4">
+      <div className="createdBy text-center py-4 2xl:text-2xl">
         <p>
           Created with{" "}
           <span className="foot-link">

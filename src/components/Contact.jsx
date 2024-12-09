@@ -13,7 +13,7 @@ const Contact = () => {
           </div>
 
           <form className="flex flex-col flex-wrap gap-5">
-            <div className="flex flex-wrap gap-5">
+            <div className="flex flex-wrap gap-5 2xl:flex 2xl:gap-8">
               <div className="mb-5">
                 <label
                   htmlFor="name"
@@ -24,7 +24,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm 2xl:text-2xl block w-full p-2 shadow-md 2xl:py-6"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm 2xl:text-2xl block w-full p-2 shadow-md 2xl:py-6 2xl:w-[500px]"
                   placeholder="Enter your name"
                   required
                 />
@@ -40,7 +40,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm 2xl:text-2xl block w-full p-2 shadow-md 2xl:py-6"
+                  className="field px-4 outline-none text-[#95ADB1] text-lg rounded-sm 2xl:text-2xl block w-full p-2 shadow-md 2xl:py-6 2xl:w-[500px]"
                   placeholder="Enter your email"
                   required
                 />
